@@ -1,0 +1,42 @@
+
+.elements{
+    background-color: lightcoral;
+    display: block;
+    width: 370px;
+    margin-left: 33%;
+    padding: 0.6%;
+    margin-right: 0.5%;
+    border-radius: 3px;
+    margin-bottom: 1%;
+    
+}
+.modify{
+    display: inline;
+    margin-right: 2px;
+    line-height: 25px;
+    width: 40px;
+    border-radius: 3px;
+    margin-bottom: 1%;
+}
+.delete{
+    margin-left: 220px;
+    
+}
+.delete:hover{
+    background-color: transparent;
+}
+.edit:hover{
+    background-color: transparent;
+}
+.check{
+    width: 20px;
+    height: 30px;
+    margin-left:1%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:checked + label.checkClass{
+    text-decoration: line-through;
+  }
+ 
